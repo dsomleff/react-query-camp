@@ -2,8 +2,12 @@
 brief notes about React Query
 
 ## base-blog-em
-1. useQuery hook
-2. Pagination
-3. Pre-Fetching
-4. isLoading vs isFetching
-5. Mutations
+- QueryClient and QueryProvider
+- useQuery hook - to fetch the data from the server
+   - isLoading, isFetching, error - helping to infor User about status of particular query
+- staleTime - determine where data should be re-fetch on a certain trigger / how data is
+- casheTime - how long to hold on data after inactivity
+- query keys - name your data to allow track data changes
+- Pagination
+- Pre-Fetching
+- Mutations - manipulations with data
