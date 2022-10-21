@@ -11,3 +11,6 @@ brief notes about React Query
 - Pagination
 - Pre-Fetching
 - Mutations - manipulations with data
+
+## base-infinite-swapi
+
