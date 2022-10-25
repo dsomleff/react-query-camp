@@ -13,4 +13,10 @@ brief notes about React Query
 - Mutations - manipulations with data
 
 ## base-infinite-swapi
-
+- Infinite Scroll example
+- `pageParam` for next page to be fetched
+    - `getNextPageParam` option
+    - could be from `lastPage` or `allPages` depends on API structure
+- `hasNextPage` boolean indicates when `pageParam` is undefined
+- Component handles calling `fetchNextPage`
+- use `hasNextPage` to determine when to stop
