@@ -20,3 +20,5 @@ brief notes about React Query
 - `hasNextPage` boolean indicates when `pageParam` is undefined
 - Component handles calling `fetchNextPage`
 - use `hasNextPage` to determine when to stop
+
+## lazy-days

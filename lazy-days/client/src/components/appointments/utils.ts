@@ -1,6 +1,10 @@
 import dayjs from 'dayjs';
 
-import type { Appointment, AppointmentDateMap, User } from '../../../../shared/types';
+import type {
+  Appointment,
+  AppointmentDateMap,
+  User,
+} from '../../../../shared/types';
 
 export function appointmentInPast(appointmentData: Appointment): boolean {
   const now = dayjs();
