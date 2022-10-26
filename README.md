@@ -22,3 +22,6 @@ brief notes about React Query
 - use `hasNextPage` to determine when to stop
 
 ## lazy-days
+- separate file for a `QueryClient`
+- custom hooks for fetching data like `useStaff` or `useTreatments`
+- global error handling with `onError` callback and `queryClients`
